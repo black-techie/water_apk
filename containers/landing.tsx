@@ -20,8 +20,8 @@ export default function Landing() {
                     remaining essentially unchanged.
                 </Text>
                 <View style={styles.buttons}>
-                    <PrimaryButton text="Log In"/>
-                    <SecondaryButton text="Sign Up"/>
+                    <PrimaryButton text="Log In" />
+                    <SecondaryButton text="Sign Up" />
 
                 </View>
             </View>
@@ -37,8 +37,8 @@ const styles = StyleSheet.create({
     },
     topView: {
         height: "40%",
-        alignItems:"center",
-        justifyContent:"center",
+        alignItems: "center",
+        justifyContent: "center",
         marginTop: "25%"
     },
     image: {
@@ -46,7 +46,6 @@ const styles = StyleSheet.create({
         width: 380
     },
     bottomView: {
-        // backgroundColor: "brown",
         height: "50%",
     },
     heading: {

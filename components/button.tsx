@@ -1,6 +1,6 @@
-import { Button, Pressable, Text, StyleSheet } from "react-native";
+import {Pressable, Text, StyleSheet } from "react-native";
 
-interface prop{
+interface prop {
     text: string
 }
 function PrimaryButton(props: prop) {
@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
         height: 60,
         width: 170,
         alignItems: "center",
-        justifyContent:"center",
+        justifyContent: "center",
         borderRadius: 10
     },
     primaryText: {
@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
         height: 60,
         width: 170,
         alignItems: "center",
-        justifyContent:"center",
+        justifyContent: "center",
         borderRadius: 10,
         borderWidth: 1,
         borderColor: "white"
